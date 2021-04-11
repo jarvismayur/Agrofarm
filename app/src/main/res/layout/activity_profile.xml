@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/agri"
+    tools:context=".Profile">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textSize="45sp"
+        android:textColor="#FFF"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:textColorHint="#fff"
+        android:hint="Frist Name" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/editText"
+        android:textColorHint="#fff"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColorHint="#fff"
+        android:ems="10"
+        android:inputType="date"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:layout_below="@id/editText2"
+        android:hint="Date Of Birth" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/editText3"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+
+        android:hint="Mobile Number" />
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but1"
+        android:background="@drawable/rounded"
+        android:layout_below="@id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150sp"
+        android:text="Next"
+        />
+</RelativeLayout>

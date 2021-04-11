@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/agri"
+    tools:context=".current_weather">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="@string/Heading"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textSize="60sp"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:id="@+id/t2"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:layout_below="@id/t1"
+        android:layout_marginTop="300sp"
+        android:background="#fff"
+        />
+
+</RelativeLayout>

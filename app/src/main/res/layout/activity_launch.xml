@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/agri"
+    tools:context=".Launch">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="@string/Heading"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textSize="80sp"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but1"
+        android:layout_below="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:text="Current Reading"/>
+
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but3"
+        android:layout_below="@id/but1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:text="Current Suggestion (Crop)"/>
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but4"
+        android:layout_below="@+id/but3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:text="Current Suggesstion (Soil)"/>
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but5"
+        android:layout_below="@+id/but4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:text="Current Weather Occurance"/>
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/but6"
+        android:layout_below="@+id/but5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:textColor="#000"
+        android:background="@drawable/rounded"
+        android:text="Next Weather Occurance"/>
+
+
+
+
+</RelativeLayout>
